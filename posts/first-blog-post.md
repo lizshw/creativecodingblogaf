@@ -50,11 +50,11 @@ Visit [ $\KaTeX$ ](https://katex.org/docs/supported#fractions-and-binomials) for
 
 ## Embedding p5 sketches:
 
-<iframe id="falling_falling" src="https://editor.p5js.org/capogreco/full/Fkg05m7aA"></iframe>
+<iframe id="vertical_grid" src="https://editor.p5js.org/capogreco/full/Fkg05m7aA"></iframe>
 
 <script type="module">
 
-    const iframe  = document.getElementById (`falling_falling`)
+    const iframe  = document.getElementById (`vertical_grid`)
     iframe.width  = iframe.parentNode.scrollWidth
     iframe.height = iframe.width * 9 / 16 + 42
 
