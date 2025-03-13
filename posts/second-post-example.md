@@ -33,7 +33,7 @@ With this attempt, I made the y position of the squares a variable. I noticed th
     iframe.height = iframe.width * 9 / 16 + 42
 
 </script>
-With this attempt, I started from the base template again and duplicated the code, changing the y positioning by half the size (35) each time. In theory this is a grid, but I think it would look better if the size ran diagonally rather than vertically. Obviously the code could be more efficiant, likely using another for loop that references i and size. 
+With this attempt, I started from the base template again and duplicated the code, changing the y positioning by half the size (35) each time. In theory this is a grid, but I think it would look better if the size ran diagonally rather than vertically. Obviously the code could be more efficiant, likely using another for loop that references 'i' and 'size'. 
 
 </script>
 
