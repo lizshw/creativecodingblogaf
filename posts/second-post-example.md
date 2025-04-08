@@ -6,7 +6,7 @@ disable_html_sanitization: true
 allow_math: true
 ---
 
-#   Grid Square Experimentation
+# Grid Square Experimentation
 
 ## Attempt 1
 
@@ -19,7 +19,8 @@ allow_math: true
     iframe.height = iframe.width * 9 / 16 + 42
 
 </script>
-With this attempt, I made the y position of the squares a variable. I noticed that in the template, it was a static number. If I were to make it a variable, I could change the location and number of the squares, making it a grid. That's how I view the difference between a line and a grid, a grid being just more lines. I found the size of the square by using 'console.log(innerWidth)' to find the width of the canvas, then divided that by the total number of squares (10), before realising I could have just checked console.log(size) which basically does that for me. I changed the canvas size to 385 to fit the squares perfectly ((size / 2) * 10 + (size / 2))
+
+With this attempt, I made the y position of the squares a variable. I noticed that in the template, it was a static number. If I were to make it a variable, I could change the location and number of the squares, making it a grid. That's how I view the difference between a line and a grid, a grid being just more lines. I found the size of the square by using 'console.log(innerWidth)' to find the width of the canvas, then divided that by the total number of squares (10), before realising I could have just checked console.log(size) which basically does that for me. I changed the canvas size to 385 to fit the squares perfectly ((size / 2) \* 10 + (size / 2))
 </script>
 
 ## Attempt 2
@@ -33,11 +34,7 @@ With this attempt, I made the y position of the squares a variable. I noticed th
     iframe.height = iframe.width * 9 / 16 + 42
 
 </script>
-With this attempt, I started from the base template again and duplicated the code, changing the y positioning by half the size (35) each time. In theory this is a grid, but I think it would look better if the size ran diagonally rather than vertically. Obviously the code could be more efficiant, likely using another for loop that references 'i' and 'size'. 
+
+With this attempt, I started from the base template again and duplicated the code, changing the y positioning by half the size (35) each time. In theory this is a grid, but I think it would look better if the size ran diagonally rather than vertically. Obviously the code could be more efficiant, likely using another for loop that references 'i' and 'size'.
 
 </script>
-
-
-
-
-
